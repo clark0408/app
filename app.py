@@ -40,9 +40,9 @@ def handle_message(event):
     msg = event.message.text
     r = "很抱歉你在問什麼?"
     if msg == 'hi':
-        r == 'hi'
+        r = 'hi'
     elif msg == '吃飽沒'
-        r == '還沒'
+        r = '還沒'
     line_bot_api.reply_message(
         event.reply_token,
         TextSendMessage(text='吵喔'))
