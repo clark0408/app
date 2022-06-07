@@ -40,7 +40,7 @@ def handle_message(event):
     msg = event.message.text
     line_bot_api.reply_message(
         event.reply_token,
-        TextSendMessage(text='吵喔'))
+        TextSendMessage(text='你吃飽了嗎'))
 
 
 if __name__ == "__main__":
